@@ -27,4 +27,7 @@ SampleApp::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+  
+  # Added by KDI needed to make log data show up in log window not console window
+    config.log_level = :debug
 end
