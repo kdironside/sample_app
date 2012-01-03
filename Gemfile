@@ -2,6 +2,7 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.1.1'
 gem 'sqlite3'
+gem 'gravatar_image_tag'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
@@ -19,6 +20,7 @@ group :test do
   gem 'autotest-rails-pure'
   gem 'autotest-growl'
   gem 'zentest-without-autotest'
+  gem 'factory_girl_rails'
 end
 
 
